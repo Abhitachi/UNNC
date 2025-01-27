@@ -9,7 +9,7 @@ const server = net.createServer((socket) => {
   });
 });
 
-server.listen(3099, "127.0.18.1", () => {
+server.listen(3099, "127.0.0.1", () => {
   console.log("opened server on ,", server.address());
 });
 
